@@ -218,7 +218,7 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
   .main-section {
-    width: 600px;
+    width: 60%;
     margin-left: 20px;
   }
 
@@ -234,16 +234,20 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-  .main-section {
+.main-section {
     width: 95%;
 
   }
+
+.work {
+    width: 46%;
+  }
   
-  #masthead {
+#masthead {
   width: 99%;
 }
 
-  #logo {
+#logo {
     padding-left: 10px;
 }
 
@@ -287,10 +291,13 @@ nav {
  }
 
 .main-section {
-  float: none;
   padding: 15px;
   margin: 15px;
 
+}
+
+.work {
+  width: 99%;
 }
 
 .auth-image {
