@@ -289,9 +289,13 @@ nav {
 .main-section {
   float: none;
   padding: 15px;
-  width: 100%;
   margin: 15px;
 
+}
+
+.auth-image {
+  float: none;
+  width: 100%;
 }
 
 }
